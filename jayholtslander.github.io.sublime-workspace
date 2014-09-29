@@ -1,0 +1,740 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"con",
+				"contact-method"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"lis",
+				"lis-n	list-style: none;"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pos-s",
+				"pos-s	position: static;"
+			],
+			[
+				"pos",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"gr",
+				"gradient"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"spla",
+				"splash2"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"borde",
+				"border-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Safari-Preview.sublime-build",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"tag",
+				"Emmet: Remove Tag"
+			],
+			[
+				"remove tag",
+				"Emmet: Remove Tag"
+			],
+			[
+				"remove ",
+				"Emmet: Remove Tag"
+			],
+			[
+				"emme",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 583.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Jay_Holtslander/Git Projects/jayholtslander.github.io/assets/themes/bootstrap-3/css/style.css",
+		"/Users/Jay_Holtslander/Desktop/index.html",
+		"/Users/Jay_Holtslander/Desktop/style.css",
+		"/Users/Jay_Holtslander/Desktop/www.themeleaf.com/css/style.css",
+		"/Users/Jay_Holtslander/Desktop/www.themeleaf.com/css/less/style.less",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/contact/index.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/about/index.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/_locales/_french.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/contact/_body.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/_partials/_sidebar-contact.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/_locales/_spanish.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/.gitignore",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/_partials/_header.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/_locales/_english.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/about/_body.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/_partials/_doc.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/index/index.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/index/_body.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/index.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/index.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/layouts/_partials/_body.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_site-variables.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_javascripts.kit",
+		"/Users/Jay_Holtslander/Git Projects/jay.holtslander.com/skills.html",
+		"/Users/Jay_Holtslander/Git Projects/jay.holtslander.com/skills/kit/index.html",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_stylesheets.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/TODO",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/styles/less/custom/custom-styles.less",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/translations/_english.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/translations/_spanish.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_body.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/translations/_french.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_imports.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_analytics.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_icons.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_fonts.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/styles/less/libraries.less",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/styles/less/app.less",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/content.md",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_footer.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/build/kits/partials/_header.kit",
+		"/Users/Jay_Holtslander/Git Projects/jays-codekit-kickoff/CHANGELOG",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/translations/_french.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_doc-head.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_doc.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_javascripts.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/content.md",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_stylesheets.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_footer.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_sidebar.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_body.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_site-variables.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/site.html",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/site.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_metas.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/partials/_imports.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/content.kit",
+		"/Users/Jay_Holtslander/Library/Application Support/Sublime Text 2/Packages/User/Safari-Preview.sublime-build",
+		"/Users/Jay_Holtslander/Library/Application Support/Sublime Text 2/Packages/HTML Compress and Replace/HTML Compress and Replace.sublime-build",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/index.html",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/_sidebar.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/_body.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/site.html",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/_footer.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/kits/_header.kit",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/example-ambient-touch.html",
+		"/Users/Jay_Holtslander/Git Projects/Video404Page/bower_components/modernizr/modernizr.js",
+		"/Users/Jay_Holtslander/Desktop/BigVideoSlideshow/index.html",
+		"/Users/Jay_Holtslander/Git Projects/Leitrim Tourism/bower_components/flat-ui-official/less/variables.less",
+		"/Users/Jay_Holtslander/Git Projects/Leitrim Tourism/bower_components/bootstrap/less/buttons.less",
+		"/Users/Jay_Holtslander/Git Projects/Leitrim Tourism/css/less/styles.less",
+		"/Users/Jay_Holtslander/Git Projects/Leitrim Tourism/index.html",
+		"/Users/Jay_Holtslander/Git Projects/Leitrim Tourism/css/less/bootstrap-docs-sidebar.less",
+		"/Users/Jay_Holtslander/Git Projects/Leitrim Tourism/css/less/all_styles.less",
+		"/Users/Jay_Holtslander/Git Projects/Leitrim Tourism/js/all_scripts.js",
+		"/Users/Jay_Holtslander/Desktop/test.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/about.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/look.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/old-html/look.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/faq.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/findus.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/shop.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/contact.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/variables.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/jay-shop.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/custom-styles.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/navbar.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/custom-media-queries.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/index.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/old-html/index.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/blank.html",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/css/shopstyles.css",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/bootstrap.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/custom-navbar.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/less/custom-navbar.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/less/custom-media-queries.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/utilities.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/mixins/center-block.less",
+		"/Users/Jay_Holtslander/Git Projects/foxweb/bower_components/bootstrap/less/mixins.less",
+		"/Users/Jay_Holtslander/Desktop/mail_directions.html",
+		"/Users/Jay_Holtslander/Git Projects/CodeCamp-Landing-Page/index.html",
+		"/Users/Jay_Holtslander/Desktop/racheldian.com/index.html",
+		"/Users/Jay_Holtslander/Desktop/racheldian.com/contact.html",
+		"/Users/Jay_Holtslander/Desktop/robots.txt",
+		"/Users/Jay_Holtslander/Desktop/quigg.js",
+		"/Users/Jay_Holtslander/Desktop/theme-options.php",
+		"/Users/Jay_Holtslander/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Jay_Holtslander/Git Projects/jason.holtslander.com/index.html",
+		"/Users/Jay_Holtslander/Desktop/htaccess",
+		"/Users/Jay_Holtslander/Git Projects/jason.holtslander.com/less/social-colors.less",
+		"/Users/Jay_Holtslander/Git Projects/jason.holtslander.com/css/vendor/fontello.css",
+		"/Users/Jay_Holtslander/Git Projects/jason.holtslander.com/less/all-styles.less",
+		"/Users/Jay_Holtslander/Downloads/screen-lg.less",
+		"/Users/Jay_Holtslander/Downloads/variables-2.less",
+		"/Users/Jay_Holtslander/Desktop/jason.holtslander-codecamp/all-styles.css",
+		"/Users/Jay_Holtslander/Desktop/jason.holtslander-codecamp/index.html",
+		"/Users/Jay_Holtslander/Desktop/1bare.html",
+		"/Users/Jay_Holtslander/Desktop/about_page/blank.html",
+		"/Users/codecamp/Desktop/1Preferences.sublime-settings",
+		"/Users/codecamp/Desktop/Preferences.sublime-settings",
+		"/Users/Jay_Holtslander/Desktop/about_page/index.html",
+		"/Users/Jay_Holtslander/Desktop/testy.html",
+		"/Users/Jay_Holtslander/Desktop/Theme Template for Bootstrap.html",
+		"/Users/Jay_Holtslander/Git Projects/jason.holtslander.com/less/jribbblestrap-skin.less",
+		"/Users/Jay_Holtslander/Desktop/Track Mt. Baker.webloc",
+		"/Users/Jay_Holtslander/Git Projects/applestrap/index.html",
+		"/Users/Jay_Holtslander/Git Projects/applestrap/bower_components/bootstrap/css/navbar-theme.css",
+		"/Users/Jay_Holtslander/Git Projects/applestrap/bower_components/bootstrap/less/navbar-theme.less"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"bower_components/BigVideo.js/",
+			"",
+			"*.less",
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"*.less",
+			"",
+			"<open file>",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"*.html",
+			"*.css",
+			"",
+			".haml",
+			"",
+			"*.scss",
+			"*.css",
+			"",
+			"*.haml",
+			".haml",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class",
+			"img",
+			"class",
+			"container",
+			"316ba5",
+			"Sidebar Link",
+			"50",
+			"<!--",
+			"<!-- @import \"partials/_doc.kit\" -->",
+			"bower_components/BigVideo/",
+			"false",
+			"unstyled",
+			"span2",
+			"btn-succ",
+			"btn-",
+			"@inverse",
+			"lighter",
+			"lightest",
+			".with-nav-tabs.panel-success",
+			".with-nav-tabs.panel-primary",
+			"d6e9c6",
+			"dff0d8",
+			"#dff0d8",
+			"\"bower_",
+			"margin-bottom",
+			".navbar",
+			"22px",
+			"navbar",
+			".ac-container",
+			"This is a less utility class mixin",
+			"class=\"img-responsive\" alt=\"\">",
+			".center-block",
+			"navbar",
+			"img",
+			"<img class=\"contact-icon\" ",
+			"@quigg.com",
+			"animated",
+			"return false;\">>",
+			"246",
+			"../font/fontello",
+			"delete Delete",
+			" *",
+			"Riverside",
+			"Riverside College",
+			"Riverside",
+			"background.jpg",
+			"\n",
+			"white_box_footer",
+			"0.64",
+			"rgba(0,0,0,0.65)",
+			"rgba(0,0,0,1)",
+			"rgba(137,255,241,0)",
+			"rgba(0,0,0,1) 100%)",
+			"512x256",
+			"navbar-h",
+			"-",
+			"77)",
+			")8)",
+			"((",
+			" ",
+			"  ",
+			"http",
+			"holt",
+			"88 West",
+			"blur(5px);",
+			"grayscale(100%)",
+			"at:",
+			"stylesheet",
+			"styleshee",
+			"stylesheet",
+			"css",
+			"\">\n",
+			"#cta",
+			"href=\"#\"",
+			"Meredith J Powell",
+			"  ",
+			"hoots",
+			"objecti",
+			"selectnav",
+			"fa",
+			"july 26",
+			"clearfix",
+			"base64",
+			"base",
+			"& ",
+			"&",
+			"simply",
+			"special-header",
+			"locatio",
+			"instag",
+			"meredith",
+			"agenda",
+			"tam",
+			"html",
+			"index",
+			"{{{url}}}",
+			"\"css/full_screen_preview.min.css\"",
+			"{{pagename}}",
+			".purchase",
+			"athemeforest-preview-logo",
+			"iframe",
+			"https",
+			".io/</a>",
+			".info/</a>",
+			".net/</a>",
+			".com/</a>",
+			".org/</a>",
+			"single_project.html",
+			"<!-- Latest Tweets -->\n		<div class=\"four columns\">\n			<div class=\"footer-headline\"><h4>Latest Tweets</h4></div>\n			<ul id=\"twitter\"></ul>\n				<script type=\"text/javascript\">\n					jQuery(document).ready(function($){\n					$.getJSON('http://api.twitter.com/1/statuses/user_timeline/j_holtslander.json?count=2&callback=?', function(tweets){\n					$(\"#twitter\").html(tz_format_twitter(tweets));\n					}); });\n				</script>\n			<div class=\"clear\"></div>\n		</div>",
+			"2013",
+			"link goes",
+			"php",
+			"photoshop",
+			"jade",
+			"fa-apple\"",
+			"href=\"/",
+			"Mac",
+			"OS X",
+			"Mavericks",
+			"choose",
+			"legal",
+			"#FFFFFF;",
+			"@black ",
+			"#000000;",
+			"#000;",
+			"#000000",
+			"#FF0000",
+			"FF0000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bower_components/BigVideo.js/",
+			"true",
+			".with-nav-tabs.panel-leitrim-purple",
+			".with-nav-tabs.panel-leitrim-green",
+			"\"../../bower_",
+			"This is a Bootstrap utility class as a less mixin",
+			"<img ",
+			"return false;\">",
+			"",
+			"CodeCore",
+			"CodeCore Bootcamp",
+			", ",
+			"",
+			"778)",
+			")",
+			"(",
+			"",
+			"Jay Holtslander",
+			" ",
+			"http://slim-lang.com/",
+			"http://scalate.fusesource.org/",
+			"http://sass-lang.com/",
+			"http://www.php.net/",
+			"http://mustache.github.io/",
+			"http://daringfireball.net/projects/markdown/",
+			"http://liquidmarkup.org/",
+			"http://lesscss.org",
+			"http://json.org/",
+			"http://jade-lang.com/",
+			"http://haml.info/",
+			"http://www.w3.org/TR/html5/",
+			"\"../../css/full_screen_preview.min.css\"",
+			"logo-image",
+			".io</a>",
+			".info</a>",
+			".net</a>",
+			".com</a>",
+			".org</a>",
+			"details.html",
+			"<!-- Instagram -->\n		<div class=\"four columns\">\n			<div class=\"footer-headline\"><h4>Instagram Shots</h4></div>\n			<!-- SnapWidget -->\n			<iframe style=\"margin-top:8px;\" src=\"http://snapwidget.com/in/?u=al9ob2x0c2xhbmRlcnxpbnw1OHwzfDJ8fG5vfDE1fG5vbmV8b25TdGFydHxubw==&v=23614\" title=\"Instagram Widget\" allowTransparency=\"true\" frameborder=\"0\" scrolling=\"no\" style=\"border:none; overflow:hidden; width:219px; height:146px\"></iframe>\n			<div class=\"clear\"></div>\n		</div>",
+			"fa-apple fa-rotate-180\"",
+			"Moc",
+			"OSXI",
+			"Maverix",
+			"@white;",
+			"@black;",
+			"@black",
+			"#FFFFFF",
+			"transparent",
+			"@theme-color;",
+			">  <",
+			"> <",
+			"\"assets/",
+			" Missing]",
+			" http",
+			",\n]\n[",
+			",\n",
+			"",
+			",\n<",
+			">\n<",
+			"http://codecore-website-data.s3.amazonaws.com/wordpress_assets/wp-content/themes/CodeCore/img/",
+			"http://codecore-website-data.s3.amazonaws.com/wordpress_assets/img/",
+			"- [http",
+			"class=\"",
+			"2014",
+			"CodeCore",
+			"<li>",
+			"-->",
+			"<!--",
+			"images/rails-users/",
+			"]]",
+			"[[",
+			"] - ",
+			"sequoiaridge.com",
+			"http://sequoiaridge.com",
+			"",
+			", ",
+			".com",
+			">\n<",
+			"* ",
+			" ",
+			" style=\"min-height:245px;\">",
+			" style=\"min-height:244px;\">",
+			"min-height:195px;",
+			" alt=\"CodeCore\" ",
+			"alt=\"Learn to code in Vancouver\"",
+			"\"http://codecore-website-data.s3.amazonaws.com/images/scala-users/",
+			"http://",
+			"https://",
+			"src=\"http://codecore-website-data.s3.amazonaws.com/images/",
+			"href=\"http://codecore-website-data.s3.amazonaws.com/images/",
+			"stylesheets/originals/",
+			"Learn to code",
+			"",
+			">\n<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mixin",
+				"bower_components/bootstrap/less/mixins.less"
+			],
+			[
+				"image_f",
+				"app/views/properties/_image_fields.html.haml"
+			],
+			[
+				"_prop",
+				"app/views/properties/_property.html.haml"
+			],
+			[
+				"importance_slider",
+				"app/views/shared/_importance_slider.html.haml"
+			],
+			[
+				"price_range_",
+				"app/views/wish_lists/forms/_price_range_form.html.haml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}
