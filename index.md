@@ -27,8 +27,8 @@ tagline: with Bootstrap 3!
 <a href="facetime://j.holtslander@gmail.com" class="btn btn-success"><i class="fa fa-video-camera"></i> Facetime</a>
 <a href="skype:jason.holtslander?call" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
 
-<a href="sms://j.holtslander@gmail.com" class="btn btn-success"><i class="fa fa-comment"></i> SMS Text</a>
-<a href="imessage://j.holtslander@gmail.com" class="btn btn-primary"><i class="fa fa-comment"></i> iMessage</a>
+<a href="sms:j.holtslander@gmail.com" class="btn btn-success"><i class="fa fa-comment"></i> SMS Text</a>
+<a href="imessage:j.holtslander@gmail.com" class="btn btn-primary"><i class="fa fa-comment"></i> iMessage</a>
 
 <a href="twitter://user?screen_name=j_holtslander" class="btn btn-default"><i class="fa fa-twitter"></i> Twitter App Link</a>
 <a href="instagram://user?username=j_holtslander" class="btn btn-default"><i class="fa fa-instagram"></i> Instagram App Link</a>
