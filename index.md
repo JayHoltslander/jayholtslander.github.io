@@ -1,20 +1,21 @@
 ---
 layout: page
-title: Jay's Jekyll Blog
-tagline: With Bootstrap 3!
+title: Jay's Jekyll Blog Project
+tagline: with Bootstrap 3!
 ---
 {% include JB/setup %}
+
 
 <div class="row">
   <div class="col-md-12">
     <div class="jumbotron">
-      <p>This is a Jumbotron!</p>
-      <a href="#" class="btn btn-lg btn-primary">Hells yeah!</a> 
+      <p>Read the Jekyll Bootstrap API</p>
+      <a href="http://jekyllbootstrap.com/api/bootstrap-api.html" class="btn btn-lg btn-primary">Continue</a> 
     </div>
   </div>
 </div>
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
 
 {% highlight html %}
 <h1>This is an example code block!<h1>
@@ -24,10 +25,17 @@ Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.ht
 
 <h3>Recent posts</h3>
 
-<ul class="posts">
+<div class="row">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> {{ post.excerpt }}</li>
+    <div class="col-md-4 col-xs-6">
+
+      <!-- IMAGE -->
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.excerpt }}</a>
+        <!-- <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.icon-image }}"></a> -->
+      <!-- /IMAGE -->
+
+      <span><a href="{{ BASE_PATH }}{{ post.url }}"><strong>{{ post.title }}</strong></a> Posted on: {{ post.date | date_to_string }}</span>
+
+    </div>
   {% endfor %}
-</ul>
-
-
+</div>

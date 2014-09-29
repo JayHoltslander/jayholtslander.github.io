@@ -1,8 +1,6 @@
 <div class="container">
 
 
-
-
   <div class="page-header">
     <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
   </div>
@@ -13,7 +11,7 @@
   <li><a href="{{ HOME_PATH }}./blog">Blog</a></li>
   <li class="active">{{ page.title }}</li>
 </ol>
-  
+
 
   <div class="row post-full">
     <div class="col-xs-12">
@@ -21,27 +19,43 @@
         <span>{{ page.date | date_to_long_string }}</span>
       </div>
       <div class="content">
-        {{ content }}
+        <div class="row">
+          <div class="col-md-9">
+            {{ content }}
+          </div>
+          <div class="col-md-3">
+            <h3>Sidebar!</h3>
+            <h4>All pages...</h4>
+              <ul>
+              {% assign pages_list = site.pages %}
+              {% include JB/pages_list %}
+              </ul>
+          </div>
+        </div>
+        
       </div>
 
+    <!-- Categories... -->
     {% unless page.categories == empty %}
       <ul class="tag_box inline">
-        <li><i class="glyphicon-open"></i></li>
+        <li><i class="fa fa-folder-open"></i></li>
         {% assign categories_list = page.categories %}
         {% include JB/categories_list %}
       </ul>
     {% endunless %}  
 
+    <!-- Tags... -->
     {% unless page.tags == empty %}
       <ul class="tag_box inline">
-        <li><i class="glyphicon-tags"></i></li>
+        <li><i class="fa fa-tags"></i></li>
         {% assign tags_list = page.tags %}
         {% include JB/tags_list %}
       </ul>
     {% endunless %}  
     
       <hr>
-      <ul class="pagination">
+      <div class="text-center">
+      <ul class="pagination pagination-sm">
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
       {% else %}
@@ -54,6 +68,7 @@
         <li class="next disabled"><a>Next &rarr;</a>
       {% endif %}
       </ul>
+      </div>
       <hr>
       {% include JB/comments %}
     </div>

@@ -1,11 +1,13 @@
 ---
-layout: post
+published: true
+layout: post-sidebar
 category : lessons
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
-excerpt : "This is a custom excerpt!"
+#excerpt : "This is a custom excerpt!"
+featured-image : http://placehold.it/1280x500/777/&text=Post+image
 ---
-{% include JB/setup %}
+<img src="{{ page.featured-image }}" alt="" class="img-responsive">
 
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
