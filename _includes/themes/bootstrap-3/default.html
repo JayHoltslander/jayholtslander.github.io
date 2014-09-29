@@ -56,7 +56,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="navbar-brand" href="{{ HOME_PATH }}"><i class="fa fa-home"></i> {{ site.title }}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -67,6 +67,41 @@
 
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
+
+          <!-- Blog2 -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog 2 <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="blog/index.html">All posts</a></li>
+              <li><a href="archive.html">Archive</a></li>
+              <li><a href="categories.html">Categories</a></li>
+              <li><a href="tags.html">Tags</a></li>
+              <li><a href="atom.xml">Atom feed</a></li>
+              <li><a href="rss.xml">RSS feed</a></li>
+            </ul>
+          </li>
+
+          <!-- Pages -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages 2 <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="404.html">404 Error</a></li>
+              <li><a href="pages.html">All Pages</a></li>
+              <li><a href="sitemap.txt">Sitemap</a></li>
+            </ul>
+          </li>
+
+
+          <!-- About -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About 2 <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="{{ BASE_PATH }}">About Jay</a></li>
+              <li><a href="{{ BASE_PATH }}{{ about_path }}">About this site</a></li>
+            </ul>
+          </li>
+
+
           </ul>
           <!-- <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
