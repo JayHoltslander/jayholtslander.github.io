@@ -21,9 +21,26 @@
       <div class="content">
         <div class="row">
           <div class="col-md-9">
+
             {{ content }}
+
+            <!-- Author bio -->
+            {% include _author-bio.html %}
+            <!-- /Author bio -->
+
+
+            <!-- Post's related posts -->
+            {% include _post-related-posts.html %}
+            <!-- /Post's related posts -->
+
+
+            <!-- Categories and tags... -->
+            {% include _post-categories-and-tags.html %}
+            <!-- /Categories and tags... -->
+
           </div>
-          <div class="col-md-3">
+
+          <div class="col-md-3 hidden-xs hidden-sm">
             <h3>Sidebar!</h3>
             <h4>All pages...</h4>
               <ul>
@@ -31,27 +48,17 @@
               {% include JB/pages_list %}
               </ul>
           </div>
+          
         </div>
         
       </div>
 
-    <!-- Categories... -->
-    {% unless page.categories == empty %}
-      <ul class="tag_box inline">
-        <li><i class="fa fa-folder-open"></i></li>
-        {% assign categories_list = page.categories %}
-        {% include JB/categories_list %}
-      </ul>
-    {% endunless %}  
 
-    <!-- Tags... -->
-    {% unless page.tags == empty %}
-      <ul class="tag_box inline">
-        <li><i class="fa fa-tags"></i></li>
-        {% assign tags_list = page.tags %}
-        {% include JB/tags_list %}
-      </ul>
-    {% endunless %}  
+
+    
+
+
+
     
       <hr>
       <div class="text-center">

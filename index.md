@@ -6,41 +6,73 @@ tagline: with Bootstrap 3!
 {% include JB/setup %}
 
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="jumbotron">
-      <p>Read the Jekyll Bootstrap API</p>
-      <a href="http://jekyllbootstrap.com/api/bootstrap-api.html" class="btn btn-lg btn-primary">Continue</a> 
-    </div>
+
+
+
+
+
+
+
+### [1 Post post tagged "Featured"]({{ site.url }}/tag-jay/)
+
+<section class="edge-to-edge">
+
+{% for post in site.tags.featured limit:1 %}
+  <div class="col-xs-12">
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.excerpt }}</a>
   </div>
+{% endfor %}
+
+</section>
+
+
+
+
+
+<h2>Other post requests</h2>
+
+
+### [4 Posts (max.) from Category A]({{ site.url }}/category-a/)
+<section class="edge-to-edge">
+<div class="row">
+{% for post in site.categories.categorya limit:4 %}
+  <div class="col-md-3 col-xs-6">
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.excerpt }}</a>
+  </div>
+{% endfor %}
+</div>
+</section>
+
+
+
+
+### [3 Posts (max.) from Category B]({{ site.url }}/category-b/)
+
+<div class="row">
+{% for post in site.categories.categoryb limit:3 %}
+  <div class="col-md-4 col-xs-4">
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.excerpt }}</a>
+  </div>
+{% endfor %}
 </div>
 
 
 
-{% highlight html %}
-<h1>This is an example code block!<h1>
-<p>It's not actually rendered as html</p>
-{% endhighlight %}
 
-<h3>iOS App launchers <small>(Not for Desktop use)</small></h3>
-<!-- For iPhone & OSX --> <a href="tel:+17783840424" class="btn btn-success"><i class="fa fa-phone"></i> Call</a>
-<!-- For iPhone & OSX --> <a href="facetime://j.holtslander@gmail.com" class="btn btn-success"><i class="fa fa-video-camera"></i> Facetime</a>
-<!-- For iPhone & OSX --> <a href="skype:jason.holtslander?call" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+### [2 Posts (max.) of posts tagged "Jay"]({{ site.url }}/tag-jay/)
 
-<!-- For iPhone ONLY --> <a href="sms:j.holtslander@gmail.com" class="btn btn-success"><i class="fa fa-comment"></i> SMS Text</a>
-<!-- For OSX ONLY --> <a href="imessage:j.holtslander@gmail.com" class="btn btn-primary"><i class="fa fa-comment"></i> iMessage</a>
-
-<!-- For iPhone & OSX --> <a href="twitter://user?screen_name=j_holtslander" class="btn btn-default"><i class="fa fa-twitter"></i> Twitter App Link</a>
-<!-- For iPhone ONLY --> <a href="instagram://user?username=j_holtslander" class="btn btn-default"><i class="fa fa-instagram"></i> Instagram App Link</a>
-<!-- For iPhone ONLY --> <a href="pinterest://user/j_holtslander/" class="btn btn-default"><i class="fa fa-pinterest"></i> Pinterest App Link</a>
-<!-- For iPhone ONLY --> <a href="linkedin://#profile/6031945" class="btn btn-default"><i class="fa fa-linkedin"></i> Linkedin App Link</a>
-<!-- For iPhone ONLY --> <a href="fb://profile/570792107" class="btn btn-default"><i class="fa fa-facebook"></i> Facebook App Link</a>
+<div class="row">
+{% for post in site.tags.jay limit:2 %}
+  <div class="col-xs-12 col-md-6">
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.excerpt }}</a>
+  </div>
+{% endfor %}
+</div>
 
 
 
 
-
-<h3>Recent posts</h3>
+### [All posts in all categories]({{ site.url }}/blog)
 
 <div class="row">
   {% for post in site.posts %}

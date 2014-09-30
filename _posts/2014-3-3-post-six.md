@@ -1,11 +1,14 @@
 ---
 published: true
-layout: post-sidebar
-category : categoryB
-title: Up and running!
+layout: post
+category : categoryb
+title: Post six
+author: jay_holtslander
 tags : [advanced, jay, tagname]
 #excerpt : "This is a custom excerpt! "
 featured-image : http://placehold.it/1280x500&text=Post+image
+icon-image : /assets/images/road.jpg
+#comments: false
 ---
 <img src="{{ page.featured-image }}" alt="" class="img-responsive">
 

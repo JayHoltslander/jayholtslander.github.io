@@ -21,7 +21,32 @@
         <span>{{ page.date | date_to_long_string }}</span>
       </div>
       <div class="content">
-        {{ content }}
+
+            {{ content }}
+
+            <!-- Author bio -->
+            {% include _author-bio.html %}
+            <!-- /Author bio -->
+
+
+            <!-- Post's 2 related posts -->
+            {% include _post-related-posts-2.html %}
+            <!-- /Post's 2 related posts -->
+
+            <!-- Post's 3 related posts -->
+            {% include _post-related-posts-3.html %}
+            <!-- /Post's 3 related posts -->
+
+            <!-- Post's 4 related posts -->
+            {% include _post-related-posts-4.html %}
+            <!-- /Post's 4 related posts -->
+
+
+            <!-- Categories and tags... -->
+            {% include _post-categories-and-tags.html %}
+            <!-- /Categories and tags... -->
+
+
       </div>
 
     {% unless page.categories == empty %}

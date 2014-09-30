@@ -1,12 +1,15 @@
 ---
 published: true
-layout: post-sidebar
-category : categoryA
+layout: post
+categories : categoryb
+title : Post eight
+author: jay_holtslander
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 #excerpt : "This is a custom excerpt!"
 featured-image : http://placehold.it/1280x500/454545/&text=Post+image
 icon-image : /assets/images/road.jpg
+#comments: false
 ---
 <img src="{{ page.featured-image }}" alt="" class="img-responsive">
 

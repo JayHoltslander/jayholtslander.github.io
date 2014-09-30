@@ -22,7 +22,7 @@
     
     <!-- Custom styles -->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ CSS_PATH }}/jays-styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/jays-styles.css" rel="stylesheet" type="text/css" media="all">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,45 +62,48 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="jb-navbar-collapse">
           <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
+            <!-- {% assign pages_list = site.pages %} -->
 
 
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
+            <!-- {% assign group = 'navigation' %} -->
+            <!-- {% include JB/pages_list %} -->
 
           <!-- Blog2 -->
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog 2 <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="blog/index.html">All posts</a></li>
-              <li><a href="archive.html">Archive</a></li>
-              <li><a href="categories.html">Categories</a></li>
-              <li><a href="tags.html">Tags</a></li>
-              <li><a href="atom.xml">Atom feed</a></li>
-              <li><a href="rss.xml">RSS feed</a></li>
+              <li><a href="{{ site.url }}/blog/index.html"><i class="fa fa-fw fa-calendar"></i> All posts</a></li>
+              <li><a href="{{ site.url }}/archive.html"><i class="fa fa-fw fa-archive"></i> Archive</a></li>
+              <li><a href="{{ site.url }}/categories.html"><i class="fa fa-fw fa-filter"></i> Categories</a></li>
+              <li><a href="{{ site.url }}/tags.html"><i class="fa fa-fw fa-tag"></i> Tags</a></li>
+              <li><a class="disabled" href="{{ site.url }}/atom.xml"><i class="fa fa-fw fa-rss"></i> Atom feed</a></li>
+              <li><a class="disabled" href="{{ site.url }}/rss.xml"><i class="fa fa-fw fa-rss"></i> RSS feed</a></li>
             </ul>
           </li>
 
           <!-- Pages -->
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages 2 <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="404.html">404 Error</a></li>
-              <li><a href="pages.html">All Pages</a></li>
-              <li><a href="sitemap.txt">Sitemap</a></li>
+              <li><a href="{{ site.url }}/404.html">404 Error</a></li>
+              <li><a href="{{ site.url }}/pages.html">All Pages</a></li>
+              <li><a href="{{ site.url }}/sitemap.txt">Sitemap</a></li>
             </ul>
           </li>
 
 
           <!-- About -->
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About 2 <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="{{ BASE_PATH }}">About Jay</a></li>
-              <li><a href="{{ BASE_PATH }}{{ about_path }}">About this site</a></li>
+              <li><a href="{{ site.url }}/about/">About Jay</a></li>
+              <li><a href="{{ site.url }}/about/">About this site</a></li>
             </ul>
           </li>
 
+          <!-- Contact -->
+          <li><a href="{{ site.url }}/contact/">Contact</a></li>
+          
 
           </ul>
           <!-- <form class="navbar-form navbar-right" role="search">
