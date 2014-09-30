@@ -7,7 +7,7 @@ author: jay_holtslander
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial, featured]
 #excerpt : "This is a custom excerpt!"
-featured-image : http://placehold.it/1280x500/454545/&text=Post+image
+featured-image : http://placehold.it/1280x500/E5E5E5/&text=Post+image
 icon-image : /assets/images/road.jpg
 #comments: false
 ---
