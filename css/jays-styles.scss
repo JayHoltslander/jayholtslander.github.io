@@ -1,3 +1,22 @@
+// Test for alternate navbar (No collapse links!)
+#ios-bar {
+    .navbar-collapse.collapse {
+        display: block!important;
+    }
+
+    .navbar-nav>li, .navbar-nav {
+        float: left !important;
+    }
+
+
+    .navbar-nav.navbar-right:last-child {
+        margin-right: -15px !important;
+    }
+
+    .navbar-right {
+        float: right!important;
+    }
+}
 
 // For the author bio widget
 
@@ -86,6 +105,12 @@ span.tags
     -moz-column-rule: 4px outset #F3F3F3; /* Firefox */
     column-rule: 4px outset #F3F3F3;
   }
+}
+
+// Bootstrap fixes
+
+* {
+  -webkit-font-smoothing: antialiased;
 }
 
 
